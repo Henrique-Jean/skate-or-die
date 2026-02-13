@@ -2,7 +2,8 @@
 
 export default {
   content: [
-    "./index.html"
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
 
   theme:{
@@ -22,7 +23,7 @@ export default {
 
       fontFamily: {
         'display': ['"Archivo Black"', 'sans-serif'],
-        'body': ['"Publica Sans"', 'sans-serif'],
+        'body': ['"Public Sans"', 'sans-serif'],
       }
     },
   },
